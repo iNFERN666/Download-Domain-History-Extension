@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "Download Domain History Extension",
+    "description": "An extension that allows you to download a file with the unique domains visited in your browser history.",
+    "version": "1.0",
+    "permissions": [
+        "history",
+        "downloads"
+    ],
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_popup": "popup.html"
+    }
+}
